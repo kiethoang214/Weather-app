@@ -10,11 +10,6 @@ type Props = {
 };
 
 export default function SearchBox(props: Props) {
-  // const [city, setCity] = useState("");
-  // const [error, setError] = useState("");
-  // //
-  // const [suggestions, setSuggestions] = useState<string[]>([]);
-  // const [showSuggestions, setShowSuggestions] = useState(false);
   return (
     <form
       className={cn(
